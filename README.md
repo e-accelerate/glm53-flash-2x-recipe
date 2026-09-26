@@ -56,7 +56,7 @@ addressed (rail 1 and rail 2, MTU 9000), passwordless SSH head → worker over t
 with the NVIDIA runtime, ~200 GB free on each node.
 
 ```bash
-git clone https://github.com/geekyabhijit/glm53-flash-2x-recipe.git
+git clone https://github.com/e-accelerate/glm53-flash-2x-recipe.git
 cd glm53-flash-2x-recipe
 $EDITOR recipe.env      # your node IPs, worker user, interface names
 ./run.sh                # first run: fetches the kit, builds the image (10–30 min), downloads ~164 GiB
